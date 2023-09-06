@@ -6,7 +6,119 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 
+/* __header-style__ */
+
 header{
-    display: flex;
+    max-width: 1980px;
+    padding: 20px;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 10px whitesmoke;
+}
+
+ 
+.nav-heading{
+    display: flex;
+    align-items: center;
+}
+
+.nav-heading img{
+    height: 20px;
+}
+
+.nav-title{
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.nav-title::first-letter{
+    color: #ff42a5;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav li a{
+    text-decoration: none;
+    color: #3C354F;
+
+}
+
+nav li{
+    list-style: none;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.follow-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    border-radius: 5px;
+    background: rgba(11, 2, 35, 0.10)
+    
+}
+
+.follow-btn img{
+    width: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 100% ;
+
+}
+
+.container img{
+    width: 500px;
+}
+
+.banner-content{
+    background-image: url("/images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-size: 700px 400px;
+    padding: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.banner-heading{
+    font-size: 55px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #d85feebd;
+
+    
+}
+
+.btn-primary{
+    border-radius: 38px;
+    border: 0;
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Home-btn{
+    border-radius: 38px;
+    background: #4EC5F7;
+    color: aliceblue;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 600;
+    border: 0;
+}
+
 
